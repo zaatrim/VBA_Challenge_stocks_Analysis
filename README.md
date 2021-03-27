@@ -16,8 +16,6 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
 
    ![tickers Array](https://user-images.githubusercontent.com/80013773/112737047-be508d00-8f14-11eb-95ed-bc2fb80b69a2.PNG)
 
-
-
    Define stock indexing parameter and then Loop one time over-all rows in stocks dataset per Year to assign and calculate the values for the above-defined Arrays (per each        stock Index).
             ![Looping](https://user-images.githubusercontent.com/80013773/112737380-65362880-8f17-11eb-8947-5a0b7a18a9bb.PNG)  
 
@@ -50,13 +48,13 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
 
 ## *Summary*
 ### Advantages
--   a. Refactoring is a Key part of the coding process. When refactoring code, I did add new functionality; I want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
--   b. Code refactoring is Important. It will enable developers to reuse someone else’s code to optimize their code.
--   c. In the specific stock analysis code. The refactored Code present ~81% - 85% Improvement in code Runtime. For large-scale stocks data set, this is a significant improvement to enable the code to scale up on large numbers of stocks.
+-  Refactoring is a Key part of the coding process. When refactoring code, I did add new functionality; I want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+-  Code refactoring is Important. It will enable developers to reuse someone else’s code to optimize their code.
+-  In the specific stock analysis code. The refactored Code present ~81% - 85% Improvement in code Runtime. For large-scale stocks data set, this is a significant improvement to enable the code to scale up on large numbers of stocks.
 
 ### Disadvantages
 
--   a. The refactored code will work under the conditions that Dataset is sorted by the Stock Name and then sorted ascending by trade Date. If these two conditions are not met, the code will not run properly.
-- b. The Array for the refactored code is not dynamic, the user has to: provide the list of the stocks and the Year. There is a place for additional refactoring to make the code mode dynamic such as:
-    - •	The code will identify the year through the data.
-    - •	The code will identify the list of the stocks from the Dataset instead of having it hardcoded. 
+- The refactored code will work under the conditions that Dataset is sorted by the Stock Name and then sorted ascending by trade Date. If these two conditions are not met, the code will not run properly.
+- The Array for the refactored code is not dynamic, the user has to: provide the list of the stocks and the Year. There is a place for additional refactoring to make the code mode dynamic such as:
+    - The code will identify the year through the data.
+    - The code will identify the list of the stocks from the Dataset instead of having it hardcoded. 
