@@ -27,17 +27,11 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
    1) Analysis results will focus on two factors:
    a. Stock’s analysis conclusions
     - 2017 was a good year for most renewable energy stocks (except for “TERP” stock).
-
    ![2017stocks_analysis_table png](https://user-images.githubusercontent.com/80013773/112737529-6c116b00-8f18-11eb-8674-605be0500beb.png)
-
    - 2018 presented Negative return on most stocks except for “ENPH” and “RUN” stocks.
-   
    ![2018stocks_analysis_table png](https://user-images.githubusercontent.com/80013773/112737581-ce6a6b80-8f18-11eb-9787-11690a499d29.png)
-   
   b. There is no clear correlation between Stock Trading volume and yearly stock return.
-            
   ![20182017charts](https://user-images.githubusercontent.com/80013773/112737599-ecd06700-8f18-11eb-91ad-0aa33475d30d.PNG)
- 
   2)	In Code refactoring, I edited the code to loop over all rows at one time (Rather than doing a nested Loop, the system has to loop over all rows for every single stock in        the Array). The refactoring significantly reduced the run time. For the Year 2018 original Code, the runtime was 0.8710938 seconds, while the refactored code runtime is          0.2109375 seconds. For the year 2017 original Code, Run time was 0.9179688 seconds vs. the refactored code runtime is 0.1953125 seconds
 
         Refactored Code Runtime 	               	     vs.                	Original Code Run time 
