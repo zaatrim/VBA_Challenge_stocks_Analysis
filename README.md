@@ -5,7 +5,7 @@
                  
 ## *Analysis & Results*
 ### Analysis
-Steve already collected Stocks trading historical data, which includes Pre each stock Name &trading Date stocks Names, Stock Opening, High, Low, closing prices, and Stocks trading volume through the years. To help Steve, I will reuse, Edit or refactor, the current solution EXCEL VBA code (from Module 2) to loop through all the data one time to collect the following same information:                                                                                                                                            * Total Daily Trading Volume Per stock for the selected year Per each stock.
+Steve already collected Stocks trading historical data, which includes Pre each stock Name &trading Date stocks Names, Stock Opening, High, Low, closing prices, and Stocks trading volume through the years. To help Steve, I will reuse, Edit or refactor, the current solution EXCEL VBA code (from Module 2) to loop through all the data one time to collect the following same information:                                                                                                                                             Total Daily Trading Volume Per stock for the selected year Per each stock.
     Stock close price on the 1st trade date in the Year and the  stock close price on the last date in the year. And then calculate per each stock the Yearly return using the following formula
        • Yearly Return per stock= stock Ending Price/stock Starting Price - 1
     
@@ -18,32 +18,34 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
 
 
 
-   Define stock indexing parameter and then Loop one time      over-all rows in stocks dataset per Year to assign and calculate the values for the above-defined Arrays (per each stock Index).
-            Insert Loop image   
+   Define stock indexing parameter and then Loop one time over-all rows in stocks dataset per Year to assign and calculate the values for the above-defined Arrays (per each        stock Index).
+            ![Looping](https://user-images.githubusercontent.com/80013773/112737380-65362880-8f17-11eb-8947-5a0b7a18a9bb.PNG)  
 
    The last step in this analysis, store the analysis outcome in Table in a new worksheet to help Steve make his recommendation.
 
-   Insert output image here 
+   ![printoutput](https://user-images.githubusercontent.com/80013773/112737392-7da64300-8f17-11eb-8869-1114a9706643.PNG)
           
 ### Results
    1) Analysis results will focus on two factors:
      a.	Stock’s analysis conclusions
-         i.	2017 was a good year for most renewable energy stocks (except for “TERP” stock).
+     i.  	2017 was a good year for most renewable energy stocks (except for “TERP” stock).
 
-   insert "allstocks 2017 output" image
+   ![2017stocks_analysis_table png](https://user-images.githubusercontent.com/80013773/112737529-6c116b00-8f18-11eb-8674-605be0500beb.png)
 
-   ii.	 2018 presented Negative return on most stocks except for “ENPH” and “RUN” stocks. 
-               insert "allstocks 2018 output" image
-       b.	There is no clear correlation between Stock Trading volume and yearly stock return.
+   ii.	 2018 presented Negative return on most stocks except for “ENPH” and “RUN” stocks.
+   
+   ![2018stocks_analysis_table png](https://user-images.githubusercontent.com/80013773/112737581-ce6a6b80-8f18-11eb-9787-11690a499d29.png)
+   
+   b.	There is no clear correlation between Stock Trading volume and yearly stock return.
             
-   insert stock performace charts  image
+  ![20182017charts](https://user-images.githubusercontent.com/80013773/112737599-ecd06700-8f18-11eb-91ad-0aa33475d30d.PNG)
  
-   2)	In Code refactoring, I edited the code to loop over all rows at one time (Rather than doing a nested Loop, the system has to loop over all rows for every single stock in the Array). The refactoring significantly reduced the run time. For the Year 2018 original Code, the runtime was 0.8710938 seconds, while the refactored code runtime is 0.2109375 seconds. For the year 2017 original Code, Run time was 0.9179688 seconds vs. the refactored code runtime is 0.1953125 seconds
+   2)	In Code refactoring, I edited the code to loop over all rows at one time (Rather than doing a nested Loop, the system has to loop over all rows for every single stock in        the Array). The refactoring significantly reduced the run time. For the Year 2018 original Code, the runtime was 0.8710938 seconds, while the refactored code runtime is          0.2109375 seconds. For the year 2017 original Code, Run time was 0.9179688 seconds vs. the refactored code runtime is 0.1953125 seconds
 
-        Refactored Code Runtime 		     vs.                	Original Code Run time 
+        Refactored Code Runtime 	               	     vs.                	Original Code Run time 
                 ![2018runtime](https://user-images.githubusercontent.com/80013773/112737240-2784d000-8f16-11eb-8de6-21e329450e74.PNG)
                    
-        Refactored Code Runtime          vs.           			Original Code Run time 
+        Refactored Code Runtime                          vs.           			Original Code Run time 
                 ![2017runtime](https://user-images.githubusercontent.com/80013773/112737196-ce1ca100-8f15-11eb-9d71-337e48268b4c.PNG)
 
 ## *Summary*
