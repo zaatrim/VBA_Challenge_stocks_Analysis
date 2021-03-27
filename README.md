@@ -14,7 +14,9 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
           •  Stocks List,"tickers"
           •	Stock Volumes, stock starting price, and stock Ending Price 
 
-  Isnset tickers index image 
+   ![tickers Array](https://user-images.githubusercontent.com/80013773/112737047-be508d00-8f14-11eb-95ed-bc2fb80b69a2.PNG)
+
+
 
    Define stock indexing parameter and then Loop one time      over-all rows in stocks dataset per Year to assign and calculate the values for the above-defined Arrays (per each stock Index).
             Insert Loop image   
