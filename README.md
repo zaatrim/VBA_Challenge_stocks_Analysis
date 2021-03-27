@@ -27,11 +27,11 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
    1) Analysis results will focus on two factors:
    a. Stock’s analysis conclusions
     - 2017 was a good year for most renewable energy stocks (except for “TERP” stock).
-    - 
+    
    ![2017stocks_analysis_table png](https://user-images.githubusercontent.com/80013773/112737529-6c116b00-8f18-11eb-8674-605be0500beb.png)
    
    - 2018 presented Negative return on most stocks except for “ENPH” and “RUN” stocks.
-   - 
+  
    ![2018stocks_analysis_table png](https://user-images.githubusercontent.com/80013773/112737581-ce6a6b80-8f18-11eb-9787-11690a499d29.png)
    
   b. There is no clear correlation between Stock Trading volume and yearly stock return.
@@ -47,7 +47,7 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
 
 ## *Summary*
 ### Advantages
--  Refactoring is a Key part of the coding process. When refactoring code, I did add new functionality; I want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+-  Refactoring is a Key part of the coding process. When refactoring code, I did add new functionality; I want to make the code more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
 -  Code refactoring is Important. It will enable developers to reuse someone else’s code to optimize their code.
 -  In the specific stock analysis code. The refactored Code present ~81% - 85% Improvement in code Runtime. For large-scale stocks data set, this is a significant improvement to enable the code to scale up on large numbers of stocks.
 
