@@ -27,8 +27,8 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
           
 ### Results
    1) Analysis results will focus on two factors:
-     a.	Stock’s analysis conclusions
-     i.  	2017 was a good year for most renewable energy stocks (except for “TERP” stock).
+     a.	Stock’s analysis conclusions:
+    i.  	2017 was a good year for most renewable energy stocks (except for “TERP” stock).
 
    ![2017stocks_analysis_table png](https://user-images.githubusercontent.com/80013773/112737529-6c116b00-8f18-11eb-8674-605be0500beb.png)
 
