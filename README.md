@@ -40,11 +40,11 @@ Since Steve wants to run his analysis on the entire dataset, I will refactor the
  
    2)	In Code refactoring, I edited the code to loop over all rows at one time (Rather than doing a nested Loop, the system has to loop over all rows for every single stock in the Array). The refactoring significantly reduced the run time. For the Year 2018 original Code, the runtime was 0.8710938 seconds, while the refactored code runtime is 0.2109375 seconds. For the year 2017 original Code, Run time was 0.9179688 seconds vs. the refactored code runtime is 0.1953125 seconds
 
-        Refactored Code Runtime 			Original Code Run time 
-                insert 2018runtime image
+        Refactored Code Runtime 		     vs.                	Original Code Run time 
+                ![2018runtime](https://user-images.githubusercontent.com/80013773/112737240-2784d000-8f16-11eb-8de6-21e329450e74.PNG)
                    
-        Refactored Code Runtime 			Original Code Run time 
-                 insert 2017runtime image
+        Refactored Code Runtime          vs.           			Original Code Run time 
+                ![2017runtime](https://user-images.githubusercontent.com/80013773/112737196-ce1ca100-8f15-11eb-9d71-337e48268b4c.PNG)
 
 ## *Summary*
 ### Advantages
